@@ -1,0 +1,171 @@
+/*normalize*/
+@import "normalize.css" screen;
+/*colors*/
+/*breakpoints*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000315}}
+html {
+  font-size: 1rem; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000315}}
+    html {
+      font-size: 0.875rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000323}}
+body {
+  color: #363636;
+  font-family: Open Sans; }
+
+@font-face {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000334}}
+.wrapper {
+  max-width: 73.75rem;
+  margin: 0 auto; }
+
+@media screen and (min-width: 0\0) {
+  /*for IE10*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000340}}
+  .wrapper {
+    padding-right: 3.125rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000344}}
+.container {
+  max-width: 100%;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000349}}
+.project__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 2.4375rem; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000349}}
+    .project__row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000358}}
+body .hidden {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000361}}
+.project__item {
+  margin: 1.375rem 0.6875rem;
+  background: #F8F8F8;
+  border: 0.0625rem solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 33%; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000361}}
+    .project__item {
+      width: 100%;
+      margin: 0rem;
+      margin-bottom: 1.375rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000377}}
+img {
+  max-width: 100%;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000381}}
+.project__image {
+  position: relative;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000385}}
+.sticker {
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0;
+  padding: 0.5rem 0.6875rem 0.3125rem 0.6875rem;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000394}}
+  .sticker--green {
+    background: #006F79; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000398}}
+  .sticker--orange {
+    background: #EC6608; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003102}}
+.project__desc {
+  padding: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003106}}
+.projects__title {
+  text-align: center;
+  color: #45852D;
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003112}}
+.project__desc--title {
+  font-weight: bold;
+  font-size: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003116}}
+.project__desc--address {
+  padding-bottom: 0.9375rem;
+  padding-top: 0.125rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003120}}
+.project__desc--cost {
+  padding-bottom: 0.4375rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003123}}
+.project__desc--content {
+  font-size: 0.875rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003126}}
+.bold {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003132}}
+.section__pagination {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003135}}
+.btn-loadmore {
+  display: inline-block;
+  vertical-align: top;
+  background: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.01875rem;
+  text-decoration: none;
+  padding: .625em 1.1875em;
+  cursor: pointer;
+  border: 0.0625rem solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 1.5625rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003150}}
+.btn-loadmore:after {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: middle;
+  margin-right: 0.3125rem;
+  margin-left: 0.3125rem;
+  background-image: url(../img/Chevron.svg);
+  background-repeat: no-repeat;
+  width: 0.4375rem;
+  height: 1.1875rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003165}}
+.ajax_load_btn {
+  text-align: center;
+  padding: 0.625rem 0.625rem; }
+
+/*# sourceMappingURL=style.css.map */

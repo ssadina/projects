@@ -1,0 +1,169 @@
+/*normalize*/
+@import "normalize.css" screen;
+
+/*colors*/
+$green: #45852D;
+$pineGreen: #006F79;
+$orange: #EC6608;
+$black: #363636;
+
+
+/*breakpoints*/
+$tablets: 768px;
+@import "media.scss";
+
+html{
+  font-size: rem(16px);
+
+  @include tablets () {
+   font-size: rem(14px);
+  }
+}
+
+body{
+  color: $black;
+
+  font-family: Open Sans;
+}
+@font-face{
+	font-family: Open Sans;
+	font-weight: normal;
+	font-style: normal;
+} 
+
+.wrapper {
+  max-width: rem(1180px);
+  margin: 0 auto;
+}
+
+@media screen and (min-width:0\0) {  /*for IE10*/
+  .wrapper {
+    padding-right: rem(50px);
+  }}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.project__row{
+	display: flex;
+	justify-content: space-between;
+    margin: 0 rem(39px);
+
+    @include tablets () {
+      flex-direction: column;
+    }
+}
+body .hidden {
+  display: none;
+}
+.project__item {
+    margin: rem(22px) rem(11px);
+    background: #F8F8F8;
+    border: rem(1px) solid #D8D8D8;
+    box-sizing: border-box;
+
+    width: 33%; //for IE
+
+    @include tablets () {
+      width: 100%;
+      margin: rem(0px);
+      margin-bottom: rem(22px);
+    }
+}
+
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+.project__image{
+  position: relative;
+  width: 100%;
+}
+.sticker {
+    position: absolute;
+    bottom: rem(4px);
+    right: 0;
+  padding: rem(8px) rem(11px) rem(5px) rem(11px);
+  color: #FFFFFF;
+  font-size: rem(12px);
+  font-weight: bold;
+
+  &--green{
+    background: #006F79;
+  }
+
+  &--orange{
+    background: $orange;
+  }
+}
+.project__desc{
+    padding: rem(20px);
+}
+
+.projects__title{
+	text-align: center;
+	color: $green;
+    font-size: rem(36px);
+    margin-bottom: rem(12px);
+}
+.project__desc--title{
+  font-weight: bold;
+  font-size: rem(20px);
+}
+.project__desc--address{
+  padding-bottom: rem(15px);
+  padding-top: rem(2px);
+}
+.project__desc--cost{
+  padding-bottom: rem(7px);
+}
+.project__desc--content{
+  font-size: rem(14px);
+}
+.bold{
+  font-weight: bold;
+}
+
+
+
+.section__pagination{
+  text-align: center;
+}
+.btn-loadmore{
+  display: inline-block;
+  vertical-align: top;
+  background: transparent;
+  font-weight: bold;
+  font-size: rem(16px);
+  line-height: rem(24px);
+  letter-spacing: rem(-0.3px);
+  text-decoration: none;
+  padding: .625em 1.1875em;
+  cursor: pointer;
+  border: rem(1px) solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: rem(25px);
+}
+.btn-loadmore:after {
+  content: '';
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: middle;
+  margin-right: rem(5px);
+  margin-left: rem(5px);
+  background-image: url(../img/Chevron.svg);
+  background-repeat: no-repeat;
+  width: rem(7px);
+  height: rem(19px);
+}
+
+
+
+.ajax_load_btn{
+	text-align: center;
+	padding: rem(10px) rem(10px);
+}
+
