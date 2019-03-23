@@ -24,11 +24,10 @@ body {
   max-width: 73.75rem;
   margin: 0 auto; }
 
-@media screen and (min-width: 0\0) {
-  /*for IE10*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000340}}
+/*@media screen and (min-width:0\0) {  
   .wrapper {
-    padding-right: 3.125rem; } }
+    padding-right: rem(50px);
+  }}*/
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\0000344}}
 .container {
   max-width: 100%;
@@ -105,35 +104,36 @@ img {
   text-align: center;
   color: #45852D;
   font-size: 2.25rem;
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem;
+  padding: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003113}}
 .project__desc--title {
   font-weight: bold;
   font-size: 1.25rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003117}}
 .project__desc--address {
   padding-bottom: 0.9375rem;
   padding-top: 0.125rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003121}}
 .project__desc--cost {
   padding-bottom: 0.4375rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003124}}
 .project__desc--content {
   font-size: 0.875rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003127}}
 .bold {
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003133}}
 .section__pagination {
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003136}}
 .btn-loadmore {
   display: inline-block;
   vertical-align: top;
@@ -148,9 +148,10 @@ img {
   border: 0.0625rem solid #D8D8D8;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 1.5625rem; }
+  border-radius: 1.5625rem;
+  color: #363636; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003152}}
 .btn-loadmore:after {
   content: '';
   display: inline-block;
@@ -164,6 +165,10 @@ img {
   height: 1.1875rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003165}}
+.btn-loadmore:visited {
+  color: #363636; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Elena\/Documents\/testtask\/css\/style\.scss}line{font-family:\00003170}}
 .ajax_load_btn {
   text-align: center;
   padding: 0.625rem 0.625rem; }

@@ -36,10 +36,10 @@ body{
   margin: 0 auto;
 }
 
-@media screen and (min-width:0\0) {  /*for IE10*/
+/*@media screen and (min-width:0\0) {  
   .wrapper {
     padding-right: rem(50px);
-  }}
+  }}*/
 
 .container {
   max-width: 100%;
@@ -108,6 +108,7 @@ img {
 	color: $green;
     font-size: rem(36px);
     margin-bottom: rem(12px);
+    padding: 0 10px;
 }
 .project__desc--title{
   font-weight: bold;
@@ -146,6 +147,7 @@ img {
   border: rem(1px) solid #D8D8D8;
   box-sizing: border-box;
   border-radius: rem(25px);
+  color: $black;
 }
 .btn-loadmore:after {
   content: '';
@@ -158,8 +160,11 @@ img {
   background-repeat: no-repeat;
   width: rem(7px);
   height: rem(19px);
-}
 
+}
+.btn-loadmore:visited{
+  color: $black;
+}
 
 
 .ajax_load_btn{
