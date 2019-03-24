@@ -36,10 +36,10 @@ body{
   margin: 0 auto;
 }
 
-/*@media screen and (min-width:0\0) {
-  .wrapper {
-    padding-right: rem(50px);
-  }}*/
+@media screen and (min-width:0\0) {
+  .project__item  {
+    width: 33%; //for IE
+  }}
 
 .container {
   max-width: 100%;
@@ -64,7 +64,7 @@ body .hidden {
     border: rem(1px) solid #D8D8D8;
     box-sizing: border-box;
 
-    width: 33%; //for IE
+
 
     @include tablets () {
       width: 100%;
